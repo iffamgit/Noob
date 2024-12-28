@@ -3,7 +3,7 @@
 echo "Starting update..."
 
 # Example: Fetch a file from GitHub
-wget -qO update.sh wget -qO update.sh https://raw.githubusercontent.com/iffamgit/Noob/main/update.sh
+wget -qO update.sh wget -qO update.sh https://github.com/iffamgit/Noob/blob/main/update.sh
 
 if [ $? -eq 0 ]; then
     echo "File downloaded successfully."
